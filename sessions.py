@@ -2,7 +2,7 @@ from flask import Flask, session, redirect, url_for, escape, request
 
 app = Flask(__name__)
 
-app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
+app.secret_key = b'\x95\x10\x8d\xdeU\xce\x98\x13\xe4%\xb8bT\x82\x01\xca'
 
 @app.route('/')
 def index():
